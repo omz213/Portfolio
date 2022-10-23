@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Trispace', sans-serif;
+}
+nav{
+    background-color: blueviolet;
+    color: white;
+    padding: 1rem;
+}
+.links{
+    text-align: right;
+}
+.links a
+{
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+main{
+    margin-top: 5rem;
+    text-align: center;
+}
+span{
+    color: blueviolet;
+}
+.web{
+    text-align: center;
+    color: grey;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.tech{
+    background-color: lightgray;
+    padding: 3rem;
+}
+.tech h1{
+    color: blueviolet;
+}
+.tech p{
+    color: rgba(65, 65, 65, 0.906);
+}
+.projects h1{
+    color: blueviolet;
+}
+.projects p{
+    color:rgba(65, 65, 65, 0.906); 
+}
+.projects button{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+}
+.projects{
+    padding: 3rem;
+}
+.projects button:hover{
+    background-color: lightgray;
+    color: blueviolet;
+}
+.blogs{
+    padding: 3rem;
+    background-color: lightgray;
+}
+.blogs h1{
+    color: blueviolet;
+}
+.blogs p{
+    color: rgba(65, 65, 65, 0.906);
+}
+.blogs button{
+    background-color: lightgray;
+    color: blueviolet;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+}
+.blogs button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 3rem;
+}
+footer h1, footer a{
+    color: white;
+   text-decoration: none;
+}
+footer a{
+    margin-right: 1.4rem;
+}
+footer p{
+    color: white;
+    font-size: 0.7rem;
+}
